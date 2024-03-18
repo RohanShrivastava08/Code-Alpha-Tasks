@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AGE CALCULATOR</h1>
+        </header>
+        <main>
+            <form id="ageForm">
+                <div class="input-group">
+                    <label for="birthdate">Enter Birth Date:</label>
+                    <input type="date" id="birthdate" required>
+                </div>
+                <div class="input-group">
+                    <label for="currentdate">Enter Current Date:</label>
+                    <input type="date" id="currentdate" required>
+                </div>
+                <button type="submit" id="calculateBtn">CALCULATE</button>
+            </form>
+            <div id="result"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
