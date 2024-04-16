@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="header-title">Stock Market Website</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#charts">Charts</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="welcome-container">
+        <div class="container">
+            <h2 class="welcome-heading">Welcome to Stock Tracker</h2>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {
+                "symbols": [
+                    {
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500 Index"
+                    },
+                    {
+                    "proName": "FOREXCOM:NSXUSD",
+                    "title": "US 100 Cash CFD"
+                    },
+                    {
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR to USD"
+                    },
+                    {
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "Bitcoin"
+                    },
+                    {
+                    "proName": "BITSTAMP:ETHUSD",
+                    "title": "Ethereum"
+                    }
+                ],
+                "showSymbolLogo": true,
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "colorTheme": "light",
+                "locale": "en"
+                }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="description">The stock market is a dynamic marketplace where investors buy and sell shares of publicly traded companies. It serves as a platform for businesses to raise capital by issuing stocks, and for investors to potentially earn returns through buying and selling those stocks. Stock prices are influenced by various factors including company performance, economic conditions, market sentiment, and geopolitical events. Investing in the stock market carries risks, but it also offers opportunities for growth and wealth accumulation over the long term.</p>
+        <br>
+        <p class="description">Participating in the stock market allows individuals and institutions to invest in the future success of companies across different sectors and industries. By purchasing stocks, investors become partial owners of those companies and may benefit from potential capital appreciation and dividends. The stock market also provides liquidity, allowing investors to easily buy and sell securities, thereby facilitating efficient capital allocation. While stock market investing involves risk and volatility, it remains a vital component of the global economy and a key avenue for wealth creation and financial growth.
+
+
+
+
+        </p>
+        <br>
+    </div>
+
+    <div class="trending-container">
+        <div class="container">
+            <h2 class="trending-heading" id="charts">Trending Charts</h2>
+            <div class="graph-container">
+                <!-- First Graph -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+                    {
+                    "symbols": [
+                        [
+                        "Apple",
+                        "AAPL|1D"
+                        ],
+                        [
+                        "Google",
+                        "GOOGL|1D"
+                        ],
+                        [
+                        "Microsoft",
+                        "MSFT|1D"
+                        ],
+                        [
+                        "BITSTAMP:BTCUSD|1D"
+                        ],
+                        [
+                        "NSE:NIFTY|1D"
+                        ],
+                        [
+                        "BSE:SENSEX|1D"
+                        ]
+                    ],
+                    "chartOnly": false,
+                    "width": 550,
+                    "height": 400,
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "autosize": false,
+                    "showVolume": false,
+                    "showMA": false,
+                    "hideDateRanges": false,
+                    "hideMarketStatus": false,
+                    "hideSymbolLogo": false,
+                    "scalePosition": "right",
+                    "scaleMode": "Normal",
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+                    "fontSize": "10",
+                    "noTimeScale": false,
+                    "valuesTracking": "1",
+                    "changeMode": "price-and-percent",
+                    "chartType": "area",
+                    "maLineColor": "#2962FF",
+                    "maLineWidth": 1,
+                    "maLength": 9,
+                    "lineWidth": 2,
+                    "lineType": 0,
+                    "dateRanges": [
+                        "1d|1",
+                        "1m|30",
+                        "3m|60",
+                        "12m|1D",
+                        "60m|1W",
+                        "all|1M"
+                    ]
+                    }
+                    </script>
+                </div>
+                <!-- Second Graph (Duplicated) -->
+                <!-- TradingView Widget BEGIN -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+    {
+    "symbols": [
+      [
+        "Google",
+        "GOOGL|1D"
+      ],
+      [
+        "Microsoft",
+        "MSFT|1D"
+      ],
+      [
+        "BITSTAMP:BTCUSD|1D"
+      ],
+      [
+        "NSE:NIFTY|1D"
+      ],
+      [
+        "BSE:SENSEX|1D"
+      ]
+    ],
+    "chartOnly": false,
+    "width": 550,
+    "height": 400,
+    "locale": "en",
+    "colorTheme": "dark",
+    "autosize": false,
+    "showVolume": false,
+    "showMA": false,
+    "hideDateRanges": false,
+    "hideMarketStatus": false,
+    "hideSymbolLogo": false,
+    "scalePosition": "right",
+    "scaleMode": "Normal",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+    "fontSize": "10",
+    "noTimeScale": false,
+    "valuesTracking": "1",
+    "changeMode": "price-and-percent",
+    "chartType": "area",
+    "maLineColor": "#2962FF",
+    "maLineWidth": 1,
+    "maLength": 9,
+    "lineWidth": 2,
+    "lineType": 0,
+    "dateRanges": [
+      "1d|1",
+      "1m|30",
+      "3m|60",
+      "12m|1D",
+      "60m|1W",
+      "all|1M"
+    ]
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trending-news-container">
+        <div class="container">
+            <h2 class="trending-news-heading" id="news">Trending Market News</h2>
+            <div class="news-items">
+                <!-- Add your news items here -->
+              <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+    {
+    "feedMode": "all_symbols",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "width": "1500",
+    "height": "550",
+    "colorTheme": "light",
+    "locale": "en"
+  }
+    </script>
+  </div>
+
+  <!-- TradingView Widget END -->
+                <!-- Add more news items as needed -->
+            </div>
+        </div>
+    </div>
+    <div class="technical-analysis-container">
+        <div class="container">
+            <h2 class="technical-analysis-heading">Technical Analysis Widget</h2>
+            <div class="technical-analysis">
+                <!-- Add your technical analysis widget here -->
+                <!-- TradingView Widget BEGIN -->
+               <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+    {
+    "interval": "1m",
+    "width": "1500",
+    "isTransparent": false,
+    "height": "550",
+    "symbol": "NASDAQ:AAPL",
+    "showIntervalTabs": true,
+    "displayMode": "single",
+    "locale": "en",
+    "colorTheme": "light"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+                <!-- TradingView Widget END -->
+            </div>
+        </div>
+    </div>
+
+    <div class="fundamental-data-container">
+        <div class="container">
+            <h2 class="fundamental-data-heading">Fundamental Data</h2>
+            <div class="fundamental-data">
+                <!-- Add your fundamental data widgets here -->
+              <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
+    {
+    "isTransparent": false,
+    "largeChartUrl": "",
+    "displayMode": "regular",
+    "width": "1500",
+    "height": "550",
+    "colorTheme": "light",
+    "symbol": "NASDAQ:AAPL",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+                <!-- Add more widgets as needed -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="economic-events-container">
+        <div class="container">
+            <h2 class="economic-events-heading" id="events">Economic Events</h2>
+            <br>
+            <div class="economic-events">
+                <!-- Add your economic event items here -->
+              <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+    {
+    "colorTheme": "light",
+    "isTransparent": false,
+    "width": "1500",
+    "height": "550",
+    "locale": "en",
+    "importanceFilter": "-1,0,1",
+    "countryFilter": "ar,au,br,ca,cn,fr,de,in,id,it,jp,kr,mx,ru,sa,za,tr,gb,us,eu"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+                <!-- Add more economic event items as needed -->
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <div class="container">
+            <h2 class="contact-heading" id="contact">Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Stock Market Website. All rights reserved.</p>
+    </footer>
+   
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
